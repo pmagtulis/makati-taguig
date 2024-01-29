@@ -16,7 +16,13 @@ a {
 .tall img {
   margin: 0 auto;
   display: block;
+  align-items: center;
   max-width: 50%;
+}
+
+#juxtapose-embed {
+  display: block;
+  align-items: center;
 }
 
 .mobile {
@@ -30,20 +36,37 @@ a {
 .title {
   text-align: center !important;
   justify-content: center;
-  position: relative;
-  margin-bottom: auto;
+  position: absolute;
+  display: flex;
+  float: left;
+  top:40%;
+  left:50%;
   color: #333333;
   font-size: 40px;
   font-weight: bold;
 }
 
+.subtitle {
+  text-align: center !important;
+  justify-content: center;
+  position: absolute;
+  margin-bottom: auto;
+  color: #333333;
+  top:50%;
+  left:47%;
+  font-size: 22px;
+}
+
 .byline {
   text-align: center !important;
   justify-content: center;
-  position: relative;
+  position: absolute;
+  display:flex;
   margin-bottom: auto;
   color: #333333;
-  font-size: 16px;
+  top:60%;
+  left:67%;
+  font-size: 18px;
 }
 
 .first-letter {
