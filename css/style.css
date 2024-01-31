@@ -115,9 +115,10 @@ a {
   .title {
     text-align: center !important;
     justify-content: center;
-    position: relative;
-    margin-bottom: auto;
-    color: #333333;
+    position: absolute;
+    color: hsl(0, 0%, 100%);
+    top: 50%;
+    left: 8%;
     font-size: 20px;
     font-weight: bold;
   }
@@ -125,10 +126,16 @@ a {
   .byline {
     text-align: center !important;
     justify-content: center;
-    position:relative;
-    color: #333333;
+    position:absolute;
+    color: #ffffff;
+    top: 55%;
+    left:35%;
     font-size: 16px;
-    background: #ffffff
+  }
+
+  .tall-mobile {
+    margin-top: 10%;
+    margin-bottom: 25%;
   }
 
   .first-letter {
@@ -137,29 +144,9 @@ a {
     float: left;
     text-indent: 0;
   }
-
-  .tall-mobile {
-    position: relative;
-    display: block;
-    margin: 0 auto;
-  }
   
   .tall {
     display: none;
-  }
-  
-  .tall-mobile img {
-    margin: 0 auto;
-    display: block;
-    max-width: 100%;
-  }
-
-  .footer_container {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    margin-right: 25%;
-    margin-left: 25%;
   }
 
   html, body {
