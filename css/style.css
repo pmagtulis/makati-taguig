@@ -36,9 +36,9 @@ a {
   justify-content: center;
   position: absolute;
   display: flex;
-  float: left;
-  top:40%;
-  left:50%;
+  float: right;
+  top: 30%;
+  left: 48%;
   color: #ffffff;
   font-size: 40px;
   font-weight: bold;
@@ -47,6 +47,7 @@ a {
 .subtitle {
   text-align: center !important;
   justify-content: center;
+  float: right;
   position: absolute;
   margin-bottom: auto;
   color: #ffffff;
@@ -60,9 +61,10 @@ a {
   justify-content: center;
   position: absolute;
   display:flex;
+  float: right;
   margin-bottom: auto;
   color: #ffffff;
-  top:60%;
+  top:65%;
   left:67%;
   font-size: 18px;
 }
@@ -118,7 +120,7 @@ a {
     position: absolute;
     color: hsl(0, 0%, 100%);
     top: 50%;
-    left: 8%;
+    left: 4%;
     font-size: 20px;
     font-weight: bold;
   }
@@ -128,7 +130,7 @@ a {
     justify-content: center;
     position:absolute;
     color: #ffffff;
-    top: 55%;
+    top: 59%;
     left:35%;
     font-size: 16px;
   }
