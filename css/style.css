@@ -38,7 +38,7 @@ a {
   display: flex;
   float: right;
   top: 30%;
-  left: 48%;
+  left: 53%;
   color: #ffffff;
   font-size: 40px;
   font-weight: bold;
@@ -116,11 +116,12 @@ a {
 
   .title {
     text-align: center !important;
+    /* display: block; */
     justify-content: center;
     position: absolute;
     color: hsl(0, 0%, 100%);
     top: 50%;
-    left: 4%;
+    left: 11%;
     font-size: 20px;
     font-weight: bold;
   }
@@ -130,14 +131,21 @@ a {
     justify-content: center;
     position:absolute;
     color: #ffffff;
-    top: 59%;
+    /* display: block; */
+    top: 53%;
     left:35%;
+    padding-top: 2%;
     font-size: 16px;
   }
 
   .tall-mobile {
-    margin-top: 10%;
-    margin-bottom: 25%;
+    display: block;
+    padding-top: 10%;
+    padding-bottom: 12%;
+  }
+
+  .mobile > iframe {
+    margin-left: 1%;
   }
 
   .first-letter {
